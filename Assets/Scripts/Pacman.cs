@@ -15,6 +15,7 @@ public class Pacman : MonoBehaviour
 
     public Text ScoreText;
     public AudioClip jump;
+    public AudioClip scorePoint;
 
 
     // Update is called once per frame
@@ -40,6 +41,8 @@ public class Pacman : MonoBehaviour
             SceneManager.LoadScene(2);
         }else if(collision.gameObject.tag == "Score")
         {
+            GetComponent<AudioSource>().clip = scorePoint;
+            GetComponent<AudioSource>().Play();
             score++;
             ScoreText.text = score.ToString();
         }
