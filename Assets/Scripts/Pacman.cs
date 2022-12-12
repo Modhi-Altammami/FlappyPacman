@@ -15,7 +15,7 @@ public class Pacman : MonoBehaviour
 
     public Text ScoreText;
     public AudioClip jump;
-    public AudioClip scorePoint;
+   
 
     public ChangeMedal obj;
 
@@ -43,8 +43,6 @@ public class Pacman : MonoBehaviour
             SceneManager.LoadScene(2);
         }else if(collision.gameObject.tag == "Score")
         {
-            GetComponent<AudioSource>().clip = scorePoint;
-            GetComponent<AudioSource>().Play();
             score++;
             ScoreText.text = score.ToString();
             obj.Checkmedal(score);
