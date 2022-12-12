@@ -17,6 +17,8 @@ public class Pacman : MonoBehaviour
     public AudioClip jump;
     public AudioClip scorePoint;
 
+    public ChangeMedal obj;
+
 
     // Update is called once per frame
     void Update()
@@ -45,6 +47,8 @@ public class Pacman : MonoBehaviour
             GetComponent<AudioSource>().Play();
             score++;
             ScoreText.text = score.ToString();
+            obj.Checkmedal(score);
+
         }
     }
 
