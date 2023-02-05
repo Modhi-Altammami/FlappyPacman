@@ -238,7 +238,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 978237318}
-  m_RootOrder: -1
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -316,7 +316,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f233056db384d4b63a6db8af6a538ed1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  GO: {fileID: 3195022150998754813, guid: f5ca26f4122924ada9f785a3ab833ab5, type: 3}
+  GO: {fileID: 0}
   repeat: 6
 --- !u!4 &363187011
 Transform:
@@ -365,7 +365,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 978237318}
-  m_RootOrder: -1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -432,12 +432,15 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    serializedVersion: 2
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 5560304942346297121, guid: dd0307436bf7749d3b2b0d86b7ae2ac3, type: 3}
       propertyPath: m_Name
       value: Medal
+      objectReference: {fileID: 0}
+    - target: {fileID: 5560304942346297121, guid: dd0307436bf7749d3b2b0d86b7ae2ac3, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5560304942346297150, guid: dd0307436bf7749d3b2b0d86b7ae2ac3, type: 3}
       propertyPath: gold
@@ -508,7 +511,6 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: dd0307436bf7749d3b2b0d86b7ae2ac3, type: 3}
 --- !u!114 &668133919 stripped
 MonoBehaviour:
@@ -663,7 +665,6 @@ MonoBehaviour:
   strength: 5
   ScoreText: {fileID: 334197852}
   jump: {fileID: 8300000, guid: 000328f5fcb994da298abd1d171c85ce, type: 3}
-  scorePoint: {fileID: 8300000, guid: cac44fd15b2184a568cd444b152228b3, type: 3}
   obj: {fileID: 668133919}
 --- !u!82 &733739877
 AudioSource:
@@ -934,7 +935,6 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 0
-  m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
@@ -1114,6 +1114,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_SendPointerHoverToParent: 1
   m_HorizontalAxis: Horizontal
   m_VerticalAxis: Vertical
   m_SubmitButton: Submit

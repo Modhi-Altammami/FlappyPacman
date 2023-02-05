@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 4809229919092618364}
   - component: {fileID: 7921917299023756274}
   m_Layer: 0
-  m_Name: Ghost 3
+  m_Name: 4
   m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -31,7 +31,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 7828798809931310200}
-  m_RootOrder: -1
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &4809229919092618364
 SpriteRenderer:
@@ -141,7 +141,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 7828798809931310200}
-  m_RootOrder: -1
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &3230590163033608691
 BoxCollider2D:
@@ -180,7 +180,7 @@ GameObject:
   - component: {fileID: 7833639590213816700}
   - component: {fileID: 548882907902766804}
   m_Layer: 0
-  m_Name: Score1
+  m_Name: Score2
   m_TagString: Score
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -199,7 +199,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 7828798809931310200}
-  m_RootOrder: -1
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &548882907902766804
 BoxCollider2D:
@@ -239,7 +239,7 @@ GameObject:
   - component: {fileID: 7997499188212985547}
   - component: {fileID: 6261437393555598648}
   m_Layer: 0
-  m_Name: Ghost 2
+  m_Name: 3
   m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -258,7 +258,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 7828798809931310200}
-  m_RootOrder: -1
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &7997499188212985547
 SpriteRenderer:
@@ -367,16 +367,16 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 51587117745481087}
-  - {fileID: 4814650189105364202}
-  - {fileID: 2830527383025760020}
-  - {fileID: 7833639590213816700}
   - {fileID: 8025339433317912000}
-  - {fileID: 7589017574447090665}
   - {fileID: 8256976157551076354}
   - {fileID: 3700293257456018010}
-  - {fileID: 3916985305120378337}
+  - {fileID: 4814650189105364202}
+  - {fileID: 2830527383025760020}
+  - {fileID: 51587117745481087}
+  - {fileID: 7833639590213816700}
+  - {fileID: 7589017574447090665}
   - {fileID: 2983959672064295199}
+  - {fileID: 3916985305120378337}
   - {fileID: 4849294110262567830}
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -424,7 +424,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 7828798809931310200}
-  m_RootOrder: -1
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &5432140839693004122
 BoxCollider2D:
@@ -464,7 +464,7 @@ GameObject:
   - component: {fileID: 2089772489917635714}
   - component: {fileID: 5734260934352813251}
   m_Layer: 0
-  m_Name: Ghost 7
+  m_Name: 7
   m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -483,7 +483,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 7828798809931310200}
-  m_RootOrder: -1
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &2089772489917635714
 SpriteRenderer:
@@ -575,7 +575,7 @@ GameObject:
   - component: {fileID: 2403775155104961832}
   - component: {fileID: 2116820831116041333}
   m_Layer: 0
-  m_Name: Ghost 5
+  m_Name: 1
   m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -594,7 +594,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 7828798809931310200}
-  m_RootOrder: -1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &2403775155104961832
 SpriteRenderer:
@@ -686,7 +686,7 @@ GameObject:
   - component: {fileID: 1416255595667575399}
   - component: {fileID: 3304829655407017730}
   m_Layer: 0
-  m_Name: Ghost 4
+  m_Name: 2
   m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -705,7 +705,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 7828798809931310200}
-  m_RootOrder: -1
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1416255595667575399
 SpriteRenderer:
@@ -797,7 +797,7 @@ GameObject:
   - component: {fileID: 2022092770141442998}
   - component: {fileID: 691017805679083032}
   m_Layer: 0
-  m_Name: Ghost 1
+  m_Name: 5
   m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -816,7 +816,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 7828798809931310200}
-  m_RootOrder: -1
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &2022092770141442998
 SpriteRenderer:
@@ -908,7 +908,7 @@ GameObject:
   - component: {fileID: 2160328224500226262}
   - component: {fileID: 818149297000255112}
   m_Layer: 0
-  m_Name: Ghost 6
+  m_Name: 6
   m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -927,7 +927,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 7828798809931310200}
-  m_RootOrder: -1
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &2160328224500226262
 SpriteRenderer:
@@ -1018,7 +1018,7 @@ GameObject:
   - component: {fileID: 3700293257456018010}
   - component: {fileID: 7140108907879693226}
   m_Layer: 0
-  m_Name: Score2
+  m_Name: Score1
   m_TagString: Score
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1037,7 +1037,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 7828798809931310200}
-  m_RootOrder: -1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &7140108907879693226
 BoxCollider2D:
